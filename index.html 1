@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>布丁英雄图鉴</title>
+
+<style>
+body{
+background:#0f0f1a;
+color:white;
+font-family:sans-serif;
+text-align:center;
+}
+
+h1{
+margin-top:40px;
+}
+
+.hero-list{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:50px;
+}
+
+.hero-card{
+background:#1a1a2e;
+padding:20px;
+border-radius:12px;
+width:180px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.hero-card:hover{
+transform:scale(1.1);
+background:#272744;
+}
+
+.hero-card img{
+width:100%;
+border-radius:10px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>🍮 布丁英雄图鉴</h1>
+
+<div class="hero-list">
+
+<a href="pudding.html">
+<div class="hero-card">
+
+<img src="https://placekitten.com/200/200">
+
+<h3>布丁猫</h3>
+
+<p>刺客 / 九命机制</p>
+
+</div>
+</a>
+
+</div>
+
+</body>
+</html>
