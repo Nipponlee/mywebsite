@@ -2,48 +2,196 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>布丁猫</title>
+<title>195.布丁 - 英雄图鉴</title>
 
 <style>
 
 body{
-background:#111;
+background:#0f0f1a;
 color:white;
 font-family:sans-serif;
-padding:40px;
+padding:30px;
+}
+
+.hero{
+background:#1a1a2e;
+padding:25px;
+border-radius:15px;
+margin-bottom:25px;
 }
 
 .skill{
-background:#1a1a2e;
+background:#20203a;
+padding:20px;
+border-radius:12px;
+margin-top:15px;
+}
+
+h1{
+color:#ffd166;
+}
+
+h2{
+color:#8ecae6;
+}
+
+.stat{
+background:#151528;
 padding:15px;
-margin-top:20px;
 border-radius:10px;
+margin-top:10px;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<h1>🍮 布丁猫</h1>
+<h1>195.布丁</h1>
+<p>定位：刺客 | 爆发 / 收割</p>
 
-<p>定位：刺客</p>
-<p>特点：九条命机制</p>
+<div class="hero">
+
+<p>
+一个被老陈收养的宠物猫穿越到魔幻世界，  
+他传说中的 <b>九条命</b> 成为了他的能力来源……
+</p>
+
+</div>
+
+<h2>基础属性</h2>
+
+<div class="stat">
+
+<p>血量：1000（每级 +145，最高6级）</p>
+
+<p>基础物理 / 法术：20（每级 +29，最高6级）</p>
+
+</div>
+
+<h2>被动技能</h2>
 
 <div class="skill">
-<h3>技能1：猫爪攻击</h3>
-<p>快速攻击敌人</p>
+
+<h3>喵～想萌混过关！</h3>
+
+<p>
+布丁的血量结构特殊：
+</p>
+
+<p>
+本体血量 20% ：获得 15% 双抗减免 和 60% 缓速减免
+</p>
+
+<p>
+其他血量 80% ：  
+每 10% 血量提供：
+<br>
++5 物理攻击  
+<br>
++1.8% 技能伤害
+</p>
+
+<p>
+当血量进入 20% 时：
+<br>
+获得 0.8 秒不可选中
+<br>
+头上出现 “逃跑” 字样
+</p>
+
+</div>
+
+<h2>技能</h2>
+
+<div class="skill">
+
+<h3>1技能：猫垫挠爪</h3>
+
+<p>冷却：8 / 5 秒</p>
+
+<p>
+锁定目标造成  
+240 / 300 物理伤害（80%物理加成）
+</p>
+
+<p>
+并对附近敌人造成  
+80% 溅射伤害
+</p>
+
+<p>
+释放期间 0.8 秒不可选中
+</p>
+
 </div>
 
 <div class="skill">
-<h3>技能2：布丁跳跃</h3>
-<p>跳向敌人造成爆炸</p>
+
+<h3>2技能：叮~喵喵滚</h3>
+
+<p>冷却：12 / 10 秒</p>
+
+<p>
+向前翻滚一小段距离（可穿墙）
+</p>
+
+<p>
+翻滚期间获得  
+50% 减伤（0.8秒）
+</p>
+
+<p>
+穿过敌人时：
+<br>
+减速 35% 持续 3 秒
+</p>
+
+<p>
+低血量状态：
+<br>
+翻滚距离 +20%
+<br>
+移速 +40% 持续 2 秒
+</p>
+
 </div>
 
 <div class="skill">
-<h3>大招：九命觉醒</h3>
-<p>死亡后复活一次</p>
+
+<h3>大招：猫猫乱窜</h3>
+
+<p>冷却：25 / 18 秒</p>
+
+<p>
+锁定敌方英雄进行连续攻击
+</p>
+
+<p>
+持续 1 秒内攻击 6 次
+</p>
+
+<p>
+每次造成：
+<br>
+100 / 120 物理伤害（60%物理加成）
+</p>
+
+<p>
+并对周围敌人造成
+<br>
+40% / 50% 溅射伤害
+</p>
+
+<p>
+如果命中 ≥2 名英雄  
+最后一击会击退并附加 30% 减速（1秒）
+</p>
+
+<p>
+释放期间不可选中
+</p>
+
 </div>
 
 <br>
@@ -51,4 +199,4 @@ border-radius:10px;
 <a href="index.html">⬅ 返回英雄列表</a>
 
 </body>
-</html>
+  </html>
